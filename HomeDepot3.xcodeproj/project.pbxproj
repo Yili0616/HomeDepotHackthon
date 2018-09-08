@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA05D9EC2143A4C400AEBE97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05D9EB2143A4C400AEBE97 /* AppDelegate.swift */; };
+		BA05D9EE2143A4C400AEBE97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05D9ED2143A4C400AEBE97 /* ViewController.swift */; };
+		BA05D9F12143A4C400AEBE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05D9EF2143A4C400AEBE97 /* Main.storyboard */; };
+		BA05D9F32143A4C500AEBE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA05D9F22143A4C500AEBE97 /* Assets.xcassets */; };
+		BA05D9F62143A4C500AEBE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05D9F42143A4C500AEBE97 /* LaunchScreen.storyboard */; };
+		BA05DA012143A4C500AEBE97 /* HomeDepot3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05DA002143A4C500AEBE97 /* HomeDepot3Tests.swift */; };
+		BA05DA0C2143A4C500AEBE97 /* HomeDepot3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05DA0B2143A4C500AEBE97 /* HomeDepot3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA05D9FD2143A4C500AEBE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA05D9E02143A4C400AEBE97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA05D9E72143A4C400AEBE97;
+			remoteInfo = HomeDepot3;
+		};
+		BA05DA082143A4C500AEBE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA05D9E02143A4C400AEBE97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA05D9E72143A4C400AEBE97;
+			remoteInfo = HomeDepot3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA05D9E82143A4C400AEBE97 /* HomeDepot3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeDepot3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA05D9EB2143A4C400AEBE97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA05D9ED2143A4C400AEBE97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA05D9F02143A4C400AEBE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA05D9F22143A4C500AEBE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA05D9F52143A4C500AEBE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA05D9F72143A4C500AEBE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA05D9FC2143A4C500AEBE97 /* HomeDepot3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDepot3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA05DA002143A4C500AEBE97 /* HomeDepot3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDepot3Tests.swift; sourceTree = "<group>"; };
+		BA05DA022143A4C500AEBE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA05DA072143A4C500AEBE97 /* HomeDepot3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDepot3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA05DA0B2143A4C500AEBE97 /* HomeDepot3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDepot3UITests.swift; sourceTree = "<group>"; };
+		BA05DA0D2143A4C500AEBE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA05D9E52143A4C400AEBE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA05D9F92143A4C500AEBE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA05DA042143A4C500AEBE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA05D9DF2143A4C400AEBE97 = {
+			isa = PBXGroup;
+			children = (
+				BA05D9EA2143A4C400AEBE97 /* HomeDepot3 */,
+				BA05D9FF2143A4C500AEBE97 /* HomeDepot3Tests */,
+				BA05DA0A2143A4C500AEBE97 /* HomeDepot3UITests */,
+				BA05D9E92143A4C400AEBE97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA05D9E92143A4C400AEBE97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA05D9E82143A4C400AEBE97 /* HomeDepot3.app */,
+				BA05D9FC2143A4C500AEBE97 /* HomeDepot3Tests.xctest */,
+				BA05DA072143A4C500AEBE97 /* HomeDepot3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA05D9EA2143A4C400AEBE97 /* HomeDepot3 */ = {
+			isa = PBXGroup;
+			children = (
+				BA05D9EB2143A4C400AEBE97 /* AppDelegate.swift */,
+				BA05D9ED2143A4C400AEBE97 /* ViewController.swift */,
+				BA05D9EF2143A4C400AEBE97 /* Main.storyboard */,
+				BA05D9F22143A4C500AEBE97 /* Assets.xcassets */,
+				BA05D9F42143A4C500AEBE97 /* LaunchScreen.storyboard */,
+				BA05D9F72143A4C500AEBE97 /* Info.plist */,
+			);
+			path = HomeDepot3;
+			sourceTree = "<group>";
+		};
+		BA05D9FF2143A4C500AEBE97 /* HomeDepot3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BA05DA002143A4C500AEBE97 /* HomeDepot3Tests.swift */,
+				BA05DA022143A4C500AEBE97 /* Info.plist */,
+			);
+			path = HomeDepot3Tests;
+			sourceTree = "<group>";
+		};
+		BA05DA0A2143A4C500AEBE97 /* HomeDepot3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA05DA0B2143A4C500AEBE97 /* HomeDepot3UITests.swift */,
+				BA05DA0D2143A4C500AEBE97 /* Info.plist */,
+			);
+			path = HomeDepot3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA05D9E72143A4C400AEBE97 /* HomeDepot3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA05DA102143A4C500AEBE97 /* Build configuration list for PBXNativeTarget "HomeDepot3" */;
+			buildPhases = (
+				BA05D9E42143A4C400AEBE97 /* Sources */,
+				BA05D9E52143A4C400AEBE97 /* Frameworks */,
+				BA05D9E62143A4C400AEBE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeDepot3;
+			productName = HomeDepot3;
+			productReference = BA05D9E82143A4C400AEBE97 /* HomeDepot3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA05D9FB2143A4C500AEBE97 /* HomeDepot3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA05DA132143A4C500AEBE97 /* Build configuration list for PBXNativeTarget "HomeDepot3Tests" */;
+			buildPhases = (
+				BA05D9F82143A4C500AEBE97 /* Sources */,
+				BA05D9F92143A4C500AEBE97 /* Frameworks */,
+				BA05D9FA2143A4C500AEBE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA05D9FE2143A4C500AEBE97 /* PBXTargetDependency */,
+			);
+			name = HomeDepot3Tests;
+			productName = HomeDepot3Tests;
+			productReference = BA05D9FC2143A4C500AEBE97 /* HomeDepot3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA05DA062143A4C500AEBE97 /* HomeDepot3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA05DA162143A4C500AEBE97 /* Build configuration list for PBXNativeTarget "HomeDepot3UITests" */;
+			buildPhases = (
+				BA05DA032143A4C500AEBE97 /* Sources */,
+				BA05DA042143A4C500AEBE97 /* Frameworks */,
+				BA05DA052143A4C500AEBE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA05DA092143A4C500AEBE97 /* PBXTargetDependency */,
+			);
+			name = HomeDepot3UITests;
+			productName = HomeDepot3UITests;
+			productReference = BA05DA072143A4C500AEBE97 /* HomeDepot3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA05D9E02143A4C400AEBE97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Yili Hui";
+				TargetAttributes = {
+					BA05D9E72143A4C400AEBE97 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BA05D9FB2143A4C500AEBE97 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BA05D9E72143A4C400AEBE97;
+					};
+					BA05DA062143A4C500AEBE97 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BA05D9E72143A4C400AEBE97;
+					};
+				};
+			};
+			buildConfigurationList = BA05D9E32143A4C400AEBE97 /* Build configuration list for PBXProject "HomeDepot3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA05D9DF2143A4C400AEBE97;
+			productRefGroup = BA05D9E92143A4C400AEBE97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA05D9E72143A4C400AEBE97 /* HomeDepot3 */,
+				BA05D9FB2143A4C500AEBE97 /* HomeDepot3Tests */,
+				BA05DA062143A4C500AEBE97 /* HomeDepot3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA05D9E62143A4C400AEBE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA05D9F62143A4C500AEBE97 /* LaunchScreen.storyboard in Resources */,
+				BA05D9F32143A4C500AEBE97 /* Assets.xcassets in Resources */,
+				BA05D9F12143A4C400AEBE97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA05D9FA2143A4C500AEBE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA05DA052143A4C500AEBE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA05D9E42143A4C400AEBE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA05D9EE2143A4C400AEBE97 /* ViewController.swift in Sources */,
+				BA05D9EC2143A4C400AEBE97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA05D9F82143A4C500AEBE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA05DA012143A4C500AEBE97 /* HomeDepot3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA05DA032143A4C500AEBE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA05DA0C2143A4C500AEBE97 /* HomeDepot3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA05D9FE2143A4C500AEBE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA05D9E72143A4C400AEBE97 /* HomeDepot3 */;
+			targetProxy = BA05D9FD2143A4C500AEBE97 /* PBXContainerItemProxy */;
+		};
+		BA05DA092143A4C500AEBE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA05D9E72143A4C400AEBE97 /* HomeDepot3 */;
+			targetProxy = BA05DA082143A4C500AEBE97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA05D9EF2143A4C400AEBE97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA05D9F02143A4C400AEBE97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA05D9F42143A4C500AEBE97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA05D9F52143A4C500AEBE97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA05DA0E2143A4C500AEBE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA05DA0F2143A4C500AEBE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA05DA112143A4C500AEBE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepot3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeDepot3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA05DA122143A4C500AEBE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepot3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeDepot3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA05DA142143A4C500AEBE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepot3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeDepot3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDepot3.app/HomeDepot3";
+			};
+			name = Debug;
+		};
+		BA05DA152143A4C500AEBE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepot3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeDepot3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDepot3.app/HomeDepot3";
+			};
+			name = Release;
+		};
+		BA05DA172143A4C500AEBE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepot3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeDepot3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeDepot3;
+			};
+			name = Debug;
+		};
+		BA05DA182143A4C500AEBE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepot3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeDepot3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeDepot3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA05D9E32143A4C400AEBE97 /* Build configuration list for PBXProject "HomeDepot3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA05DA0E2143A4C500AEBE97 /* Debug */,
+				BA05DA0F2143A4C500AEBE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA05DA102143A4C500AEBE97 /* Build configuration list for PBXNativeTarget "HomeDepot3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA05DA112143A4C500AEBE97 /* Debug */,
+				BA05DA122143A4C500AEBE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA05DA132143A4C500AEBE97 /* Build configuration list for PBXNativeTarget "HomeDepot3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA05DA142143A4C500AEBE97 /* Debug */,
+				BA05DA152143A4C500AEBE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA05DA162143A4C500AEBE97 /* Build configuration list for PBXNativeTarget "HomeDepot3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA05DA172143A4C500AEBE97 /* Debug */,
+				BA05DA182143A4C500AEBE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA05D9E02143A4C400AEBE97 /* Project object */;
+}
